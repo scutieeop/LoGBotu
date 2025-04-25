@@ -1,0 +1,13 @@
+{
+  "prefix": ".",
+  "usePrefix": true,
+  "defaultPermissions": ["SendMessages", "EmbedLinks"],
+  "adminRoles": ["1364256810995023902"],
+  "modRoles": ["1364256810995023900"],
+  "disabledCommands": [],
+  "cooldowns": {
+    "default": 3,
+    "reputation": 30,
+    "stats": 10
+  }
+} 

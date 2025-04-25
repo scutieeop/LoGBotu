@@ -1,0 +1,17 @@
+{
+  "name": "discord-advanced-logger",
+  "version": "1.0.0",
+  "description": "Advanced Discord logging bot with extremely detailed event tracking",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

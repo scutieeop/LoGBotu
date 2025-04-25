@@ -1,0 +1,1 @@
+module.exports = {  TOKEN: "your_discord_bot_token_here",  CLIENT_ID: "your_client_id_here",  LOG_CHANNEL_ID: "your_log_channel_id",  GUILD_ID: "your_guild_id"}; 

@@ -1,0 +1,152 @@
+{
+  "bioRoles": {
+    "1364256764018556989": {
+      "autoRemove": true,
+      "BerkayAdam": "1364257107443978370"
+    }
+  },
+  "logSetup": {
+    "category": {
+      "type": 4,
+      "guild": "1364256764018556989",
+      "guildId": "1364256764018556989",
+      "permissionOverwrites": [
+        "1246506868977696811",
+        "1364256764018556989",
+        "1363526018714833017"
+      ],
+      "flags": 0,
+      "id": "1365072108031447143",
+      "name": "guild-logs",
+      "rawPosition": 1,
+      "parentId": null,
+      "createdTimestamp": 1745528952368
+    },
+    "channels": {
+      "message-logs": "1365313488808972298",
+      "member-logs": "1365313498065666198",
+      "voice-logs": "1365313505233993819",
+      "channel-logs": "1365313514461462588",
+      "role-logs": "1365313522908659754",
+      "server-logs": "1365313531666235433",
+      "emoji-logs": "1365313540608495717",
+      "invite-logs": "1365313550129696859",
+      "mod-logs": "1365313560535633920",
+      "webhook-logs": "1365313569373294673"
+    },
+    "webhooks": {
+      "message-logs": "1365313492462338088",
+      "member-logs": "1365313501928624228",
+      "voice-logs": "1365313508614344766",
+      "channel-logs": "1365313517174919319",
+      "role-logs": "1365313526394126476",
+      "server-logs": "1365313535139381319",
+      "emoji-logs": "1365313544198946837",
+      "invite-logs": "1365313554747621468",
+      "mod-logs": "1365313563559858217",
+      "webhook-logs": "1365313572313239603"
+    }
+  },
+  "channels": {
+    "message-logs": "1365072111151874180",
+    "member-logs": "1365072120022958090",
+    "voice-logs": "1365072128751439913",
+    "channel-logs": "1365072138792468542",
+    "role-logs": "1365072149622296787",
+    "server-logs": "1365072158044327957",
+    "emoji-logs": "1365072166344724501",
+    "invite-logs": "1365072175186579546",
+    "mod-logs": "1365072184216784979",
+    "webhook-logs": "1365072193226149938",
+    "error-logs": "1365072193226149938",
+    "security-logs": "1365072184216784979",
+    "command-logs": "1365072184216784979",
+    "user-logs": "1365072120022958090"
+  },
+  "webhooks": {
+    "message-logs": "1365072114390007828",
+    "member-logs": "1365072123126747277",
+    "voice-logs": "1365072132656070747",
+    "channel-logs": "1365072142877593702",
+    "role-logs": "1365072152474419422",
+    "server-logs": "1365072161018089633",
+    "emoji-logs": "1365072169695969300",
+    "invite-logs": "1365072178478977074",
+    "mod-logs": "1365072187630813217",
+    "webhook-logs": "1365072196027945084",
+    "error-logs": "1365072196027945084",
+    "security-logs": "1365072187630813217",
+    "command-logs": "1365072187630813217",
+    "user-logs": "1365072123126747277"
+  },
+  "logChannelId": "",
+  "guildId": "",
+  "alertChannelId": "1365072184216784979",
+  "analyticsChannelId": "1365072158044327957",
+  "colors": {
+    "info": "#3498db",
+    "success": "#2ecc71",
+    "warning": "#f1c40f",
+    "error": "#e74c3c"
+  },
+  "embed": {
+    "footer": "Ayrıntılı Discord Log Sistemi",
+    "timestamp": true
+  },
+  "logTypes": {
+    "MESSAGE": true,
+    "MEMBER": true,
+    "CHANNEL": true,
+    "ROLE": true,
+    "EMOJI": true,
+    "VOICE": true,
+    "GUILD": true,
+    "INVITE": true,
+    "WEBHOOK": true,
+    "STICKER": true,
+    "THREAD": true,
+    "INTEGRATION": true,
+    "PRESENCE": true,
+    "REACTION": true
+  },
+  "customLogs": {
+    "enabled": true,
+    "retention": {
+      "INFO": 30,
+      "NOTICE": 60,
+      "WARNING": 90,
+      "ERROR": 180,
+      "CRITICAL": 365,
+      "ALERT": 365,
+      "EMERGENCY": 365
+    },
+    "rateLimits": {
+      "maxLogsPerMinute": 1000,
+      "maxLogsPerHour": 10000,
+      "throttleThreshold": 0.8,
+      "excludeFromThrottling": ["ERROR", "CRITICAL", "ALERT", "EMERGENCY"]
+    },
+    "security": {
+      "suspiciousPatterns": [
+        "discord.gg",
+        "discord.com/invite",
+        "@everyone",
+        "@here",
+        "nitro free",
+        "free gift",
+        "hack",
+        "selfbot",
+        "token grab",
+        "ddos",
+        "password",
+        "token",
+        "npm install -g"
+      ],
+      "raidThresholds": {
+        "joinCountPerMinute": 10,
+        "newAccountThreshold": 7,
+        "similarNameThreshold": 0.8
+      }
+    }
+  }
+} 
